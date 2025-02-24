@@ -1713,4 +1713,4 @@ if __name__ == '__main__':
     initialize_json('users.json')
     initialize_json('notifications.json')
     from waitress import serve
-    serve(app, host='0.0.0.0', port=8855)
+    serve(app, host='0.0.0.0', port=8566)
